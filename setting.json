@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Kavrum kahve ve tatlı; görseller temsilîdir.",
+    "en": "Roasted coffee and sweets; images are representative.",
+    "ar": "قهوة محمصة وحلويات؛ الصور تمثيلية."
+  },
+  "keyword": {
+    "tr": "kahve, kafe, tatlı",
+    "en": "coffee, cafe, sweets",
+    "ar": "قهوة، مقهى، حلويات"
+  },
+  "category": "Kurumsal",
+  "name": "Kafe Nokta",
+  "domain": "kafekahve.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "lora",
+    "heading": "fraunces",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#8A6245",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "5px",
+    "--mx-radius-md": "8px",
+    "--mx-radius-lg": "11px",
+    "--mx-radius-xl": "15px"
+  },
+  "icon": "icon.png"
+}

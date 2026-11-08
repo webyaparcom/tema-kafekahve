@@ -1,0 +1,40 @@
+{
+  "id": "yolo1xo3is",
+  "name": {
+    "tr": "Ekibimiz",
+    "en": "Our team",
+    "ar": "فريقنا"
+  },
+  "description": {
+    "tr": "Sizi karşılayan çalışanlarımız.",
+    "en": "The staff who welcomes you.",
+    "ar": "الموظفون الذين يستقبلونكم."
+  },
+  "keyword": {
+    "tr": "ekip, kadro",
+    "en": "team, staff",
+    "ar": "فريق، طاقم"
+  },
+  "path": "ekip",
+  "icon": "groups",
+  "category": "hakkimizda",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "r41p79",
+      "asw4r0"
+    ],
+    "footer": []
+  },
+  "index": 2,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Ekibimiz",
+    "en": "Our team",
+    "ar": "فريقنا"
+  },
+  "date": "2026-11-05T18:57:23.253Z",
+  "update": "2026-11-05T23:44:36.692Z"
+}
