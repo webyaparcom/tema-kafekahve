@@ -6,14 +6,14 @@
     "ar": "خدماتنا"
   },
   "description": {
-    "tr": "Ateşten soğana, soğandan tabağa.",
-    "en": "From fire to onion, from onion to plate.",
-    "ar": "من الحطب إلى البصل، ومن البصل إلى الطبق."
+    "tr": "Kahveden tatlıya; sabahtan geceye.",
+    "en": "From coffee to dessert; morning to night.",
+    "ar": "من القهوة إلى الحلوى؛ من الصباح إلى المساء."
   },
   "keyword": {
-    "tr": "Mutfak",
-    "en": "The kitchen",
-    "ar": "المطبخ"
+    "tr": "Menü",
+    "en": "Menu",
+    "ar": "القائمة"
   },
   "path": "hizmetler",
   "icon": "work",
@@ -36,5 +36,5 @@
     "ar": "خدماتنا"
   },
   "date": "2026-11-05T18:57:23.245Z",
-  "update": "2026-11-05T23:44:36.686Z"
+  "update": "2026-11-12T07:36:12.826Z"
 }

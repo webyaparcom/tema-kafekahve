@@ -2,14 +2,14 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Kavrum kahve ve tatlı; görseller temsilîdir.",
-    "en": "Roasted coffee and sweets; images are representative.",
-    "ar": "قهوة محمصة وحلويات؛ الصور تمثيلية."
+    "tr": "Taze kavrum kahve, ev yapımı tatlı ve hafif atıştırmalıklar sunan mahalle kafesi; görseller temsilîdir.",
+    "en": "A neighbourhood café serving freshly roasted coffee, homemade desserts and light bites; images are representative.",
+    "ar": "مقهى حيّ يقدّم قهوة محمصة طازجة وحلويات منزلية ووجبات خفيفة؛ الصور تمثيلية."
   },
   "keyword": {
-    "tr": "kahve, kafe, tatlı",
-    "en": "coffee, cafe, sweets",
-    "ar": "قهوة، مقهى، حلويات"
+    "tr": "kafe, kahve, filtre kahve, espresso, tatlı, kahvaltı",
+    "en": "café, coffee, filter coffee, espresso, dessert, breakfast",
+    "ar": "مقهى، قهوة، قهوة مفلترة، إسبريسو، حلويات، فطور"
   },
   "category": "Kurumsal",
   "name": "Kafe Nokta",

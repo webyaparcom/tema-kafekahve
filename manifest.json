@@ -1,7 +1,7 @@
 {
   "name": "Kafe Nokta",
   "short_name": "Kafe Nokta",
-  "description": "Kavrum kahve ve tatlı; görseller temsilîdir.",
+  "description": "Taze kavrum kahve, ev yapımı tatlı ve hafif atıştırmalıklar sunan mahalle kafesi; görseller temsilîdir.",
   "start_url": "/tr/",
   "scope": "/",
   "display": "standalone",
