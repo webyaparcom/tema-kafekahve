@@ -30,6 +30,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "version": "1.0.0",
@@ -766,7 +772,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1478,9 +1489,9 @@
         "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "cta": {
-          "tr": "Teklif al",
-          "en": "Get a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Masa ayırt",
+          "en": "Book a table",
+          "ar": "احجز طاولة"
         },
         "cta_url": "teklif-al"
       },
@@ -1533,19 +1544,19 @@
         "bg": "var(--mx-site-bg, #ffffff)",
         "radius": "16px",
         "eyebrow": {
-          "tr": "Kavrum taze",
-          "en": "Fresh roast",
-          "ar": "تحميص طازج"
+          "tr": "Taze kavrum kahve",
+          "en": "Freshly roasted coffee",
+          "ar": "قهوة محمصة طازجة"
         },
         "title": {
-          "tr": "Kafede durağın",
-          "en": "Your pause at the cafe",
-          "ar": "وقفتك في المقهى"
+          "tr": "Kahve, tam kıvamında",
+          "en": "Coffee, just right",
+          "ar": "قهوة بالمقدار المضبوط"
         },
         "metin": {
-          "tr": "Kafe Nokta, kahve ve tatlı sunar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Kafe serves roasted coffee and sweets. Images are representative and text is fictional.",
-          "ar": "يقدم كافيه نقطة قهوة محمصة وحلويات. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Her sabah taze demlenen filtre kahve, espresso bazlı içecekler ve ev yapımı tatlılar. Çekirdek kahve de satıyoruz.",
+          "en": "Fresh filter coffee every morning, espresso drinks and homemade desserts. We also sell whole-bean coffee.",
+          "ar": "قهوة مفلترة طازجة كل صباح ومشروبات الإسبريسو وحلويات منزلية. نبيع أيضًا حبوب القهوة."
         },
         "cta1": {
           "tr": "Menü",
@@ -1554,9 +1565,9 @@
         },
         "cta1_url": "hizmetler",
         "cta2": {
-          "tr": "Soğuk kahve",
-          "en": "Cold brew",
-          "ar": "قهوة باردة"
+          "tr": "Masa ayırt",
+          "en": "Book a table",
+          "ar": "احجز طاولة"
         },
         "cta2_url": "teklif-al",
         "scroll_label": {
@@ -1601,9 +1612,9 @@
         "radius": "16px",
         "sure": 1000,
         "title": {
-          "tr": "Ne sunuyoruz?",
-          "en": "What do we serve?",
-          "ar": "ماذا نقدم؟"
+          "tr": "Rakamlarla Kafe Nokta",
+          "en": "Kafe Nokta in numbers",
+          "ar": "Kafe Nokta بالأرقام"
         },
         "description": {
           "tr": "Kurgusal demo verileri.",
@@ -1615,11 +1626,11 @@
         {
           "deger": 12,
           "sonek": "",
-          "ikon": "restaurant",
+          "ikon": "coffee",
           "etiket": {
-            "tr": "İsim",
-            "en": "Names",
-            "ar": "أسماء"
+            "tr": "Kahve çeşidi",
+            "en": "Coffee varieties",
+            "ar": "نوع قهوة"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1628,43 +1639,43 @@
           }
         },
         {
-          "deger": 120,
-          "sonek": "%",
-          "ikon": "local_fire_department",
-          "etiket": {
-            "tr": "Ateşte pişirilen",
-            "en": "Cooked on fire",
-            "ar": "المشوية على النار"
-          },
-          "aciklama": {
-            "tr": "Kurgusal demo değeri",
-            "en": "Fictional demo figure",
-            "ar": "قيمة تجريبية"
-          }
-        },
-        {
-          "deger": 45,
-          "sonek": " dk",
-          "ikon": "schedule",
-          "etiket": {
-            "tr": "Hazırlık süresi",
-            "en": "Preparation time",
-            "ar": "زمن التجهيز"
-          },
-          "aciklama": {
-            "tr": "Kurgusal demo değeri",
-            "en": "Fictional demo figure",
-            "ar": "قيمة تجريبية"
-          }
-        },
-        {
-          "deger": 6,
+          "deger": 9,
           "sonek": "",
-          "ikon": "groups",
+          "ikon": "cake",
           "etiket": {
-            "tr": "Çalışan",
-            "en": "Staff",
-            "ar": "طاقم"
+            "tr": "Ev yapımı tatlı",
+            "en": "Homemade desserts",
+            "ar": "حلوى منزلية"
+          },
+          "aciklama": {
+            "tr": "Kurgusal demo değeri",
+            "en": "Fictional demo figure",
+            "ar": "قيمة تجريبية"
+          }
+        },
+        {
+          "deger": 2,
+          "sonek": "",
+          "ikon": "event_repeat",
+          "etiket": {
+            "tr": "Haftalık kavrum",
+            "en": "Roasts a week",
+            "ar": "تحميص أسبوعيًا"
+          },
+          "aciklama": {
+            "tr": "Kurgusal demo değeri",
+            "en": "Fictional demo figure",
+            "ar": "قيمة تجريبية"
+          }
+        },
+        {
+          "deger": 24,
+          "sonek": "",
+          "ikon": "table_restaurant",
+          "etiket": {
+            "tr": "Masa",
+            "en": "Tables",
+            "ar": "طاولة"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1695,98 +1706,98 @@
         "badgebg": "#2E6BFF",
         "badgecolor": "#ffffff",
         "badge": {
-          "tr": "Mutfak",
-          "en": "The kitchen",
-          "ar": "المطبخ"
+          "tr": "Menü",
+          "en": "Menu",
+          "ar": "القائمة"
         },
         "title": {
-          "tr": "Ne sunuyoruz?",
-          "en": "What do we serve?",
-          "ar": "ماذا نقدم؟"
+          "tr": "Menümüzden seçmeler",
+          "en": "From our menu",
+          "ar": "مختارات من قائمتنا"
         },
         "description": {
-          "tr": "Ateşten soğana, soğandan tabağa.",
-          "en": "From fire to onion, from onion to plate.",
-          "ar": "من الحطب إلى البصل، ومن البصل إلى الطبق."
+          "tr": "Kahveden tatlıya; sabahtan geceye.",
+          "en": "From coffee to dessert; morning to night.",
+          "ar": "من القهوة إلى الحلوى؛ من الصباح إلى المساء."
         }
       },
       "data": [
         {
-          "icon": "local_fire_department",
+          "icon": "coffee",
           "name": {
-            "tr": "Sıcak servis",
-            "en": "Hot service",
-            "ar": "خدمة ساخنة"
+            "tr": "Espresso ve filtre kahve",
+            "en": "Espresso and filter coffee",
+            "ar": "إسبريسو وقهوة مفلترة"
           },
           "description": {
-            "tr": "Odun ateşinde ızgara; piştiğinizde servis.",
-            "en": "Grilled over wood fire; served when done.",
-            "ar": "مشوية على نار الحطب؛ تُقدَّم عند جاهزيتها."
+            "tr": "Taze çekilmiş çekirdekle espresso, americano, latte ve filtre kahve.",
+            "en": "Espresso, americano, latte and filter coffee from freshly ground beans.",
+            "ar": "إسبريسو وأمريكانو ولاتيه وقهوة مفلترة من حبوب مطحونة طازجة."
           }
         },
         {
-          "icon": "restaurant",
+          "icon": "cake",
           "name": {
-            "tr": "Ana lezzet",
-            "en": "Main dish",
-            "ar": "الطبق الرئيسي"
+            "tr": "Ev yapımı tatlı",
+            "en": "Homemade dessert",
+            "ar": "حلوى منزلية"
           },
           "description": {
-            "tr": "Günün ana yemeği; günlük menü değişir.",
-            "en": "The day’s main dish; the daily menu changes.",
-            "ar": "طبق اليوم الرئيسي؛ يتغير قائمة اليوم."
+            "tr": "Cheesecake, brownie ve günün tatlısı; her gün taze.",
+            "en": "Cheesecake, brownie and the dessert of the day, made fresh daily.",
+            "ar": "تشيز كيك وبراوني وحلوى اليوم، تُحضَّر طازجة يوميًا."
           }
         },
         {
-          "icon": "icecream",
+          "icon": "bakery_dining",
           "name": {
-            "tr": "Ara sıcak",
-            "en": "Starter",
-            "ar": "المقبل"
+            "tr": "Kahvaltı ve atıştırmalık",
+            "en": "Breakfast and light bites",
+            "ar": "فطور ووجبات خفيفة"
           },
           "description": {
-            "tr": "Soğuk başlangıç ve salata seçenekleri.",
-            "en": "Chilled starters and salad options.",
-            "ar": "مقبلات باردة وخيارات السلطة."
+            "tr": "Poğaça, tost, sandviç ve sabah tabakları.",
+            "en": "Pastries, toasties, sandwiches and morning plates.",
+            "ar": "معجنات وتوست وساندويتشات وأطباق صباحية."
           }
         },
         {
-          "icon": "lunch_dining",
+          "icon": "ac_unit",
           "name": {
-            "tr": "Atıştırmalık",
-            "en": "Snack",
-            "ar": "وجبة خفيفة"
+            "tr": "Soğuk kahve",
+            "en": "Cold coffee",
+            "ar": "قهوة باردة"
           },
           "description": {
-            "tr": "Sıcak içecek yanında atıştırmalık.",
-            "en": "A snack with a hot drink.",
-            "ar": "وجبة خفيفة مع مشروب ساخن."
+            "tr": "Cold brew ve buzlu içecekler; yaz boyunca.",
+            "en": "Cold brew and iced drinks all summer.",
+            "ar": "كولد برو ومشروبات مثلجة طوال الصيف."
           }
         },
         {
-          "icon": "local_bar",
+          "icon": "emoji_food_beverage",
           "name": {
-            "tr": "İçecek",
-            "en": "Drink",
-            "ar": "مشروب"
+            "tr": "Çay ve bitki çayları",
+            "en": "Tea and herbal teas",
+            "ar": "الشاي وشاي الأعشاب"
           },
           "description": {
-            "tr": "Ev yapımı içecek ve çay seçkisi.",
-            "en": "House-made drinks and tea selection.",
-            "ar": "مشروبات منزلية واخيار الشاي."
+            "tr": "Demleme çay, bitki çayı ve sıcak çikolata.",
+            "en": "Brewed tea, herbal teas and hot chocolate.",
+            "ar": "شاي مُحضَّر وأعشاب وشوكولاتة ساخنة."
           }
         },
         {
-          "icon": "delivery_dining",
+          "icon": "shopping_bag",
           "name": {
-            "tr": "Paket servis",
-            "en": "To-go service",
-            "ar": "خدمة الطلبات الخارجية"
+            "tr": "Çekirdek kahve",
+            "en": "Whole-bean coffee",
+            "ar": "حبوب القهوة"
           },
           "description": {
-            "tr": "Paket kutusu ve soğuk zincir (demo bilgi).",
-            "en": "To-go box and cold chain (demo info).",
-            "ar": "صندوق للأغراض الخارجية وسلسلة التبريد (معلومات تجريبية)."
+            "tr": "Paket çekirdek veya öğütülmüş kahve; evde demleme önerisiyle.",
+            "en": "Whole-bean or ground coffee to take home, with brewing tips.",
+            "ar": "قهوة حبوب أو مطحونة للمنزل مع نصائح التحضير."
           }
         }
       ],
@@ -1814,19 +1825,19 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "badge": {
-          "tr": "Nasıl çalışırız?",
-          "en": "How we work",
-          "ar": "كيف نعمل؟"
+          "tr": "Bir fincanın yolu",
+          "en": "A cup's journey",
+          "ar": "رحلة الفنجان"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Çekirdekten fincana",
+          "en": "From bean to cup",
+          "ar": "من الحبة إلى الفنجان"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "Dört adımda her fincan.",
+          "en": "Every cup in four steps.",
+          "ar": "كل فنجان في أربع خطوات."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1836,53 +1847,53 @@
         {
           "year": "01",
           "title": {
-            "tr": "Karşılama",
-            "en": "Greeting",
-            "ar": "الترحيب"
+            "tr": "Çekirdek",
+            "en": "Beans",
+            "ar": "الحبوب"
           },
           "text": {
-            "tr": "Masa ve tercih notu alınır.",
-            "en": "The table and preference note are taken.",
-            "ar": "يُؤخذ جدول وملاحظة التفضيل."
+            "tr": "Kavrum partisi seçilir; çekirdek her gün taze çekilir.",
+            "en": "A roast batch is chosen and ground fresh each day.",
+            "ar": "تُختار دفعة التحميص وتُطحن الحبوب طازجة كل يوم."
           }
         },
         {
           "year": "02",
           "title": {
-            "tr": "Hazırlık",
-            "en": "Preparation",
-            "ar": "التجهيز"
+            "tr": "Demleme",
+            "en": "Brewing",
+            "ar": "التحضير"
           },
           "text": {
-            "tr": "Ateş ve malzeme saati başlar.",
-            "en": "Fire and ingredient time begin.",
-            "ar": "تبدأ نار ومال المواد."
+            "tr": "Espresso, filtre veya soğuk demleme; tarif ölçüyle.",
+            "en": "Espresso, filter or cold brew, made to a measured recipe.",
+            "ar": "إسبريسو أو فلتر أو تخمير بارد وفق وصفة مضبوطة."
           }
         },
         {
           "year": "03",
           "title": {
-            "tr": "Sunum",
+            "tr": "Servis",
             "en": "Serving",
-            "ar": "الكشف والطبخ"
+            "ar": "التقديم"
           },
           "text": {
-            "tr": "Yemek sıcak servis edilir.",
-            "en": "The dish is served hot.",
-            "ar": "يُقدَّم الطبق ساخناً."
+            "tr": "İçecek masanıza tam kıvamında gelir.",
+            "en": "Your drink arrives at the table at the right temperature.",
+            "ar": "يصل مشروبك إلى الطاولة بالحرارة المناسبة."
           }
         },
         {
           "year": "04",
           "title": {
-            "tr": "Tatlı",
-            "en": "Dessert",
-            "ar": "الحلا"
+            "tr": "Tatlı molası",
+            "en": "Dessert break",
+            "ar": "استراحة الحلوى"
           },
           "text": {
-            "tr": "Ağız tadına uygun tatlı ve içecek.",
-            "en": "A dessert and drink to your palate.",
-            "ar": "حلوة ومشروب يتناسب مع مذاقك."
+            "tr": "Yanına günün tatlısı ya da kurabiye.",
+            "en": "Add the dessert of the day or a cookie.",
+            "ar": "أضف حلوى اليوم أو كوكيز."
           }
         }
       ],
@@ -1911,14 +1922,14 @@
         "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
         "accent": "var(--mx-site-primary, #2563eb)",
         "badge": {
-          "tr": "Ekibimiz",
-          "en": "Our team",
-          "ar": "فريقنا"
+          "tr": "Baristalarımız",
+          "en": "Our baristas",
+          "ar": "فريق الباريستا"
         },
         "title": {
-          "tr": "Sizi karşılayan ekip",
-          "en": "The team that welcomes you",
-          "ar": "الفريق الذي يستقبلك"
+          "tr": "Fincanın arkasındakiler",
+          "en": "The people behind the cup",
+          "ar": "من وراء الفنجان"
         },
         "description": {
           "tr": "Kurgusal demo profiller.",
@@ -1932,42 +1943,42 @@
         {
           "name": "Ayşe Demir",
           "role": {
-            "tr": "Şef",
-            "en": "Chef",
-            "ar": "شيف"
+            "tr": "Baş barista",
+            "en": "Head barista",
+            "ar": "باريستا رئيسية"
           },
           "bio": {
-            "tr": "12 yıl sıcak mutfak.",
-            "en": "12 years of hot kitchen.",
-            "ar": "١٢ عامًا في المَطبخ الساخن."
+            "tr": "8 yıl espresso ve filtre demleme.",
+            "en": "8 years of espresso and filter brewing.",
+            "ar": "8 سنوات في الإسبريسو والقهوة المفلترة."
           },
           "img": ""
         },
         {
           "name": "Burak Öztürk",
           "role": {
-            "tr": "Ateş başı",
-            "en": "Grill master",
-            "ar": "على النار"
+            "tr": "Kavrum sorumlusu",
+            "en": "Roast lead",
+            "ar": "مسؤول التحميص"
           },
           "bio": {
-            "tr": "6 yıl ızgara.",
-            "en": "6 years of grilling.",
-            "ar": "٦ سنوات على المشواة."
+            "tr": "5 yıl kavrum ve harman hazırlama.",
+            "en": "5 years of roasting and blending.",
+            "ar": "5 سنوات في التحميص وإعداد المزيج."
           },
           "img": ""
         },
         {
           "name": "Seda Kaya",
           "role": {
-            "tr": "Servis başı",
-            "en": "Head of service",
-            "ar": "رئیسة الخدمة"
+            "tr": "Pasta şefi",
+            "en": "Pastry chef",
+            "ar": "شيف الحلويات"
           },
           "bio": {
-            "tr": "5 yıl karşılama.",
-            "en": "5 years of reception.",
-            "ar": "٥ سنوات في الاستقبال."
+            "tr": "6 yıl ev yapımı tatlı.",
+            "en": "6 years of homemade desserts.",
+            "ar": "6 سنوات في الحلويات المنزلية."
           },
           "img": ""
         }
@@ -1998,14 +2009,14 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "starcolor": "#f59e0b",
         "badge": {
-          "tr": "Müşteri yorumları",
-          "en": "Customer reviews",
-          "ar": "تقييمات العملاء"
+          "tr": "Yorumlar",
+          "en": "Reviews",
+          "ar": "التقييمات"
         },
         "title": {
-          "tr": "Müşterilerimiz ne diyor?",
-          "en": "What our customers say",
-          "ar": "ماذا يقول عملاؤنا؟"
+          "tr": "Müdavimlerimiz ne diyor?",
+          "en": "What our regulars say",
+          "ar": "ماذا يقول زبائننا الدائمون؟"
         },
         "description": {
           "tr": "Kurgusal demo yorumlar.",
@@ -2019,46 +2030,46 @@
         {
           "name": "Mehmet A.",
           "role": {
-            "tr": "Müşteri",
-            "en": "Customer",
-            "ar": "زبون"
+            "tr": "Müdavim",
+            "en": "Regular",
+            "ar": "زبون دائم"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Sıcak geldi; porsiyon dengeli.",
-            "en": "It came hot; balanced portion.",
-            "ar": "وجاء ساخناً؛ حصة متوازنة."
+            "tr": "Filtre kahve her sabah taze; mekân sakin.",
+            "en": "The filter coffee is fresh every morning; the place is calm.",
+            "ar": "القهوة المفلترة طازجة كل صباح والمكان هادئ."
           }
         },
         {
           "name": "Emre Y.",
           "role": {
-            "tr": "Müşteri",
-            "en": "Customer",
-            "ar": "زبون"
+            "tr": "Uzaktan çalışan",
+            "en": "Remote worker",
+            "ar": "يعمل عن بُعد"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Sipariş zamanında; servisi hızlı.",
-            "en": "Order on time; fast service.",
-            "ar": "طلب في الوقت؛ خدمة سريعة."
+            "tr": "Sessiz bir köşe, güzel espresso; saatlerce çalışılır.",
+            "en": "A quiet corner and a good espresso; you can work for hours.",
+            "ar": "ركن هادئ وإسبريسو لذيذ؛ يمكنك العمل فيه لساعات."
           }
         },
         {
           "name": "H. Sezer.",
           "role": {
-            "tr": "Aile",
-            "en": "Family",
-            "ar": "أسرة"
+            "tr": "Misafir",
+            "en": "Guest",
+            "ar": "ضيف"
           },
           "rating": 4,
           "img": "",
           "text": {
-            "tr": "Menüsü sade; fiyat net.",
-            "en": "Simple menu; clear price.",
-            "ar": "قائمة بسيطة؛ سعر واضح."
+            "tr": "Tatlılar ev yapımı tadında; fiyatlar net.",
+            "en": "The desserts taste homemade; prices are clear.",
+            "ar": "الحلويات بطعم منزلي والأسعار واضحة."
           }
         }
       ],
@@ -2103,17 +2114,17 @@
         "radius": "8px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "Kafede neler var?",
+          "en": "What's at the café",
+          "ar": "ماذا يوجد في المقهى؟"
         },
         "title": {
-          "tr": "Ne sunuyoruz?",
-          "en": "What do we serve?",
-          "ar": "ماذا نقدم؟"
+          "tr": "Menümüzden seçmeler",
+          "en": "From our menu",
+          "ar": "مختارات من قائمتنا"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
+          "tr": "Görseller temsilidir; bu bir kurulum demosudur.",
           "en": "Images are representative; this is a setup demo.",
           "ar": "الصور تمثيلية وهذا عرض تجريبي."
         },
@@ -2126,14 +2137,33 @@
       "data": [
         {
           "baslik": {
-            "tr": "Sıcak servis",
-            "en": "Hot service",
-            "ar": "خدمة ساخنة"
+            "tr": "Espresso ve filtre kahve",
+            "en": "Espresso and filter coffee",
+            "ar": "إسبريسو وقهوة مفلترة"
           },
           "metin": {
-            "tr": "Odun ateşinde ızgara; piştiğinizde servis.",
-            "en": "Grilled over wood fire; served when done.",
-            "ar": "مشوية على نار الحطب؛ تُقدَّم عند جاهزيتها."
+            "tr": "Taze çekilmiş çekirdekle espresso, americano, latte ve filtre kahve.",
+            "en": "Espresso, americano, latte and filter coffee from freshly ground beans.",
+            "ar": "إسبريسو وأمريكانو ولاتيه وقهوة مفلترة من حبوب مطحونة طازجة."
+          },
+          "img": "restoran-mekan-3.webp",
+          "alt": {
+            "tr": "Temsilî görsel",
+            "en": "Representative image",
+            "ar": "صورة تمثيلية"
+          },
+          "url": "hizmetler"
+        },
+        {
+          "baslik": {
+            "tr": "Ev yapımı tatlı",
+            "en": "Homemade dessert",
+            "ar": "حلوى منزلية"
+          },
+          "metin": {
+            "tr": "Cheesecake, brownie ve günün tatlısı; her gün taze.",
+            "en": "Cheesecake, brownie and the dessert of the day, made fresh daily.",
+            "ar": "تشيز كيك وبراوني وحلوى اليوم، تُحضَّر طازجة يوميًا."
           },
           "img": "restoran-menu-tatli.webp",
           "alt": {
@@ -2145,35 +2175,16 @@
         },
         {
           "baslik": {
-            "tr": "Ana lezzet",
-            "en": "Main dish",
-            "ar": "الطبق الرئيسي"
+            "tr": "Kahvaltı ve atıştırmalık",
+            "en": "Breakfast and light bites",
+            "ar": "فطور ووجبات خفيفة"
           },
           "metin": {
-            "tr": "Günün ana yemeği; günlük menü değişir.",
-            "en": "The day’s main dish; the daily menu changes.",
-            "ar": "طبق اليوم الرئيسي؛ يتغير قائمة اليوم."
+            "tr": "Poğaça, tost, sandviç ve sabah tabakları.",
+            "en": "Pastries, toasties, sandwiches and morning plates.",
+            "ar": "معجنات وتوست وساندويتشات وأطباق صباحية."
           },
-          "img": "restoran-menu-corba.webp",
-          "alt": {
-            "tr": "Temsilî görsel",
-            "en": "Representative image",
-            "ar": "صورة تمثيلية"
-          },
-          "url": "hizmetler"
-        },
-        {
-          "baslik": {
-            "tr": "Ara sıcak",
-            "en": "Starter",
-            "ar": "المقبل"
-          },
-          "metin": {
-            "tr": "Soğuk başlangıç ve salata seçenekleri.",
-            "en": "Chilled starters and salad options.",
-            "ar": "مقبلات باردة وخيارات السلطة."
-          },
-          "img": "restoran-galeri-ocak.webp",
+          "img": "otel-kahvalti.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2229,14 +2240,14 @@
         "radius": "8px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
-          "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "tr": "Tedarikçilerimiz",
+          "en": "Our suppliers",
+          "ar": "مورّدونا"
         },
         "description": {
-          "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
-          "en": "Fictional partner names; they do not belong to a real organisation.",
-          "ar": "أسماء شركاء افتراضية لا تعود إلى جهة حقيقية."
+          "tr": "Kurgusal tedarikçi adları; gerçek bir kuruluşa ait değildir.",
+          "en": "Fictional supplier names; they do not belong to a real organisation.",
+          "ar": "أسماء مورّدين افتراضية لا تعود إلى جهة حقيقية."
         },
         "listLabel": {
           "tr": "Referans logoları",
@@ -2246,22 +2257,22 @@
       },
       "data": [
         {
-          "name": "Demo Kahvaltı"
+          "name": "Demo Kavurma Atölyesi"
         },
         {
-          "name": "Demo Çay"
-        },
-        {
-          "name": "Demo Kahvaltı"
-        },
-        {
-          "name": "Demo İçecek"
-        },
-        {
-          "name": "Demo Unlu Mamul"
+          "name": "Demo Süt Çiftliği"
         },
         {
           "name": "Demo Fırın"
+        },
+        {
+          "name": "Demo Çay Bahçesi"
+        },
+        {
+          "name": "Demo Çikolata"
+        },
+        {
+          "name": "Demo Ambalaj"
         }
       ],
       "veri": {
@@ -2304,51 +2315,91 @@
       },
       "data": [
         {
+          "question": {
+            "tr": "Bitkisel sütlü seçenek var mı?",
+            "en": "Are there plant-based milk options?",
+            "ar": "هل تتوفر خيارات الحليب النباتي؟"
+          },
+          "answer": {
+            "tr": "Evet; yulaf ve badem sütü seçeneği vardır, siparişte belirtmeniz yeterli.",
+            "en": "Yes; oat and almond milk are available, just mention it when ordering.",
+            "ar": "نعم؛ يتوفر حليب الشوفان واللوز، يكفي أن تذكر ذلك عند الطلب."
+          },
           "soru": {
-            "tr": "Porsiyonlar ne kadar?",
-            "en": "How large are the portions?",
-            "ar": "ما حجم الحصص?"
+            "tr": "Bitkisel sütlü seçenek var mı?",
+            "en": "Are there plant-based milk options?",
+            "ar": "هل تتوفر خيارات الحليب النباتي؟"
           },
           "cevap": {
-            "tr": "Kişi sayısına göre değişir; demo metni örnek vermez.",
-            "en": "They vary by number of people; this demo text gives no example.",
-            "ar": "تتغير حسب عدد الأشخاص؛ ولا يعطي هذا النص التجريبي مثالاً."
+            "tr": "Evet; yulaf ve badem sütü seçeneği vardır, siparişte belirtmeniz yeterli.",
+            "en": "Yes; oat and almond milk are available, just mention it when ordering.",
+            "ar": "نعم؛ يتوفر حليب الشوفان واللوز، يكفي أن تذكر ذلك عند الطلب."
           }
         },
         {
+          "question": {
+            "tr": "Masa ayırtabilir miyim?",
+            "en": "Can I reserve a table?",
+            "ar": "هل يمكنني حجز طاولة؟"
+          },
+          "answer": {
+            "tr": "Evet; kalabalık gruplar için formdan masa talebi bırakabilirsiniz (demo).",
+            "en": "Yes; for larger groups you can leave a table request via the form (demo).",
+            "ar": "نعم؛ للمجموعات الكبيرة يمكنك ترك طلب طاولة عبر النموذج (تجريبي)."
+          },
           "soru": {
-            "tr": "Çevrimiçi sipariş var mı?",
-            "en": "Are there online orders?",
-            "ar": "هل توجد طلبات عبر الإنترنت?"
+            "tr": "Masa ayırtabilir miyim?",
+            "en": "Can I reserve a table?",
+            "ar": "هل يمكنني حجز طاولة؟"
           },
           "cevap": {
-            "tr": "Siteden iletişim formuyla yapılır; veri saklanmaz (demo).",
-            "en": "It is done via the site’s contact form; data is not saved (demo).",
-            "ar": "يتم عبر نموذج الاتصال في الموقع؛ لا تُحفظ البيانات (تجريبي)."
+            "tr": "Evet; kalabalık gruplar için formdan masa talebi bırakabilirsiniz (demo).",
+            "en": "Yes; for larger groups you can leave a table request via the form (demo).",
+            "ar": "نعم؛ للمجموعات الكبيرة يمكنك ترك طلب طاولة عبر النموذج (تجريبي)."
           }
         },
         {
+          "question": {
+            "tr": "Sitedeki görseller ve veriler gerçek midir?",
+            "en": "Are the images and data on the site real?",
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
+            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
+          },
           "soru": {
             "tr": "Sitedeki görseller ve veriler gerçek midir?",
             "en": "Are the images and data on the site real?",
-            "ar": "هل الصور والبيانات في الموقع حقيقية?"
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
           },
           "cevap": {
-            "tr": "Hayır; bu bir kuruluma örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
             "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
             "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
           }
         },
         {
+          "question": {
+            "tr": "Menü fiyatları nedir?",
+            "en": "What are the menu prices?",
+            "ar": "ما أسعار القائمة؟"
+          },
+          "answer": {
+            "tr": "Güncel fiyatlar mekânda sorulabilir; bu demo metinde fiyat listesi yer almaz.",
+            "en": "Current prices can be asked at the café; this demo text has no price list.",
+            "ar": "يمكن الاستفسار عن الأسعار الحالية في المقهى؛ ولا تتضمن هذه النصوص التجريبية قائمة أسعار."
+          },
           "soru": {
-            "tr": "Fiyatlar nasıl belirlenir?",
-            "en": "How are prices determined?",
-            "ar": "كيف تُحدَّد الأسعار?"
+            "tr": "Menü fiyatları nedir?",
+            "en": "What are the menu prices?",
+            "ar": "ما أسعار القائمة؟"
           },
           "cevap": {
-            "tr": "İhtiyacınıza göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
-            "en": "A quote based on your needs sets the price; a general range is not shown in this demo text.",
-            "ar": "يُحدَّد السعر عبر عرض سعر حسب احتياجاتك؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
+            "tr": "Güncel fiyatlar mekânda sorulabilir; bu demo metinde fiyat listesi yer almaz.",
+            "en": "Current prices can be asked at the café; this demo text has no price list.",
+            "ar": "يمكن الاستفسار عن الأسعار الحالية في المقهى؛ ولا تتضمن هذه النصوص التجريبية قائمة أسعار."
           }
         }
       ],
@@ -2406,9 +2457,9 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "8px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Masa ve sipariş",
+          "en": "Table and orders",
+          "ar": "الطاولات والطلبات"
         },
         "description": {
           "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
@@ -2421,7 +2472,7 @@
           "ar": "Kafe Nokta"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
+          "tr": "Görseller temsilidir; bu bir kurulum demosudur.",
           "en": "Images are representative; this is a setup demo.",
           "ar": "الصور تمثيلية وهذا عرض تجريبي."
         },
@@ -2477,8 +2528,8 @@
         },
         "social": [],
         "formTitle": {
-          "tr": "Teklif formu",
-          "en": "Quote form",
+          "tr": "Talep formu",
+          "en": "Request form",
           "ar": "نموذج الطلب"
         },
         "nameLabel": {
@@ -2510,25 +2561,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "Masa ayırtma",
+              "en": "Table reservation",
+              "ar": "حجز طاولة"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "Toplu sipariş",
+              "en": "Group order",
+              "ar": "طلب جماعي"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "Çekirdek kahve",
+              "en": "Whole-bean coffee",
+              "ar": "حبوب القهوة"
             }
           },
           {
@@ -2615,7 +2666,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2639,33 +2691,33 @@
           "ar": "Kafe Nokta"
         },
         "description": {
-          "tr": "Kafe Nokta, kahve ve tatlı sunar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Kafe serves roasted coffee and sweets. Images are representative and text is fictional.",
-          "ar": "يقدم كافيه نقطة قهوة محمصة وحلويات. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Kafe Nokta; taze kavrum kahve, ev yapımı tatlı ve hafif atıştırmalık sunan bir mahalle kafesidir. Görseller temsilidir; metinler kurgusaldır.",
+          "en": "Kafe Nokta is a neighbourhood café serving freshly roasted coffee, homemade desserts and light bites. Images are representative and text is fictional.",
+          "ar": "Kafe Nokta مقهى حيّ يقدّم قهوة محمصة طازجة وحلويات منزلية ووجبات خفيفة. الصور تمثيلية والنصوص افتراضية."
         },
         "name2": {
-          "tr": "Ateş başı",
-          "en": "At the fire",
-          "ar": "عند النار"
+          "tr": "Kavrum köşesi",
+          "en": "Roasting corner",
+          "ar": "ركن التحميص"
         },
         "spot2": {
-          "tr": "Ateş ve malzeme aynı mutfakta yürür.",
-          "en": "Fire and ingredients run in the same kitchen.",
-          "ar": "تسير نار والمواد في نفس المطبخ."
+          "tr": "Çekirdekler haftada iki kez kavrulur.",
+          "en": "Beans are roasted twice a week.",
+          "ar": "تُحمَّص الحبوب مرتين في الأسبوع."
         },
         "icon2": "local_fire_department",
         "name3": {
-          "tr": "Günün menüsü",
-          "en": "The menu of the day",
-          "ar": "قائمة اليوم"
+          "tr": "Günün tatlısı",
+          "en": "Dessert of the day",
+          "ar": "حلوى اليوم"
         },
         "spot3": {
-          "tr": "Her sabah menü yenilenir; aynı gün yazılır.",
-          "en": "The menu is renewed every morning and written on the same day.",
-          "ar": "تُجدَد القائمة كل صباح وتُكتب في نفس اليوم."
+          "tr": "Her sabah tezgâha yeni bir tatlı çıkar.",
+          "en": "A new dessert goes on the counter every morning.",
+          "ar": "تُعرض حلوى جديدة على الطاولة كل صباح."
         },
-        "icon3": "schedule",
-        "img": "restoran-mekan-3.webp",
+        "icon3": "cake",
+        "img": "restoran-mekan-2.webp",
         "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
         "margintop": "20",
@@ -2753,9 +2805,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Her gün 08:00 – 24:00",
+          "en": "Every day 08:00 – 00:00",
+          "ar": "كل يوم 08:00 – 00:00"
         },
         "callBtn": {
           "tr": "Ara",
@@ -2848,24 +2900,24 @@
         "radius": "8px",
         "title": {
           "tr": "Kahve soğumadan",
-          "en": "Before the coffee cools",
+          "en": "Before the coffee gets cold",
           "ar": "قبل أن تبرد القهوة"
         },
         "text": {
-          "tr": "İki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
-          "en": "We reply within two business days. No data is stored on this demo site.",
-          "ar": "نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
+          "tr": "Masa ya da toplu sipariş için formu doldurun; iki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
+          "en": "Fill in the form for a table or group order; we reply within two business days. No data is stored on this demo site.",
+          "ar": "املأ النموذج لحجز طاولة أو طلب جماعي؛ نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
         },
         "btn1Label": {
-          "tr": "Formu doldurun",
-          "en": "Fill the form",
-          "ar": "املأ النموذج"
+          "tr": "Masa ayırt",
+          "en": "Book a table",
+          "ar": "احجز طاولة"
         },
         "btn1Url": "teklif-al",
         "btn2Label": {
-          "tr": "Hizmetleri gör",
-          "en": "See services",
-          "ar": "شاهد الخدمات"
+          "tr": "Menüyü gör",
+          "en": "See the menu",
+          "ar": "شاهد القائمة"
         },
         "btn2Url": "hizmetler",
         "number": "903420230106",
@@ -2947,7 +2999,7 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "8px",
         "logo_maxh": "52px",
-        "logo_plate": false,
+        "logo_plate": true,
         "about": {
           "tr": "Kafe Nokta demo temadır; içerik kurgusaldır.",
           "en": "Kafe Nokta is a demo theme; the content is fictional.",

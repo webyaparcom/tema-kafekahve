@@ -8,9 +8,9 @@
         "ar": "خدماتنا"
       },
       "description": {
-        "tr": "Ateşten soğana, soğandan tabağa.",
-        "en": "From fire to onion, from onion to plate.",
-        "ar": "من الحطب إلى البصل، ومن البصل إلى الطبق."
+        "tr": "Kahveden tatlıya; sabahtan geceye.",
+        "en": "From coffee to dessert; morning to night.",
+        "ar": "من القهوة إلى الحلوى؛ من الصباح إلى المساء."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -49,9 +49,9 @@
       },
       "pathnext": "",
       "description": {
-        "tr": "Kavrum kahve ve tatlı; görseller temsilîdir.",
-        "en": "Roasted coffee and sweets; images are representative.",
-        "ar": "قهوة محمصة وحلويات؛ الصور تمثيلية."
+        "tr": "Taze kavrum kahve ve tatlı; görseller temsilîdir.",
+        "en": "Fresh-roasted coffee and dessert; images are representative.",
+        "ar": "قهوة محمصة طازجة وحلويات؛ الصور تمثيلية."
       }
     },
     {
